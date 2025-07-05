@@ -1,0 +1,98 @@
+
+html {
+            scroll-behavior: smooth;
+            font-family: 'Inter', sans-serif;
+        }
+        body {
+            background-color: #f8fafc; /* Light gray background */
+            color: #334155; /* Dark text color */
+        }
+        .section-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 1rem;
+        }
+        .nav-link:hover {
+            color: #4f46e5; /* Indigo-600 on hover */
+        }
+        .btn-primary {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+        .btn-secondary {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #4f46e5;
+            background-color: #fff;
+            border: 1px solid #4f46e5;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+            transition: background-color 0.3s ease-in-out;
+        }
+        .btn-secondary:hover {
+            background-color: #f5f3ff;
+        }
+            background-color: #4f46e5;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+            transition: background-color 0.3s ease-in-out;
+        }
+        .btn-primary:hover {
+            background-color: #3730a3;
+        }
+        .btn-secondary {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #4f46e5;
+            background-color: #fff;
+            border: 1px solid #4f46e5;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+            transition: background-color 0.3s ease-in-out;
+        }
+        .btn-secondary:hover {
+            background-color: #f5f3ff;
+        }
+        /* Style for the scroll-to-top button */
+        #scrollToTopBtn {
+            display: none; /* Hidden by default */
+            position: fixed; /* Fixed/sticky position */
+            bottom: 20px; /* Place the button at the bottom of the page */
+            right: 30px; /* Place the button 30px from the right */
+            z-index: 99; /* Make sure it does not overlap */
+            border: none; /* Remove borders */
+            outline: none; /* Remove outline */
+            background-color: #4f46e5; /* Set a background color */
+            color: white; /* Text color */
+            cursor: pointer; /* Add a mouse pointer on hover */
+            padding: 15px; /* Some padding */
+            border-radius: 50%; /* Rounded corners */
+            font-size: 18px; /* Increase font size */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        #scrollToTopBtn:hover {
+            background-color: #3730a3; /* Darker indigo on hover */
+        }
+
+        /* Message box styling */
+        .message-box {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #4f46e5;
+            color: white;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            display: none; /* Hidden by default */
+            text-align: center;
+            font-size: 1.125rem; /* Equivalent to text-lg */
+            font-weight: 600; /* Equivalent to font-semibold */
+        }
